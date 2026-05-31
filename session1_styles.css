@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #FBFBFB;
+    padding: 0 30px;
+}
+#section-1{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    /* padding: 12px 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header i{
+    font-size: 28px;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    justify-content: center;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    gap: 10px;
+}
+
+.btn button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn button:nth-child(2){
+    background-color: #000;
+    color: white;
+}
+
+.hero-div{
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: rgba(238, 238, 238, 0.662);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    padding: 15px 30px;
+    
+    
+}
+
+
+.hero-div .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.left .rating{
+    padding: 10px 30px;
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    border-radius: 50px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.rating i{
+    font-size: 25px;
+}
+
+.rating-text h3{
+    font-size: 16px;
+}
+
+.rating-text span{
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.left h1{
+    font-size: 100px;
+    line-height: 90px;
+    
+    font-weight: 600;
+}
+
+.left p{
+    font-size: 15px;
+    opacity: 0.8;
+    width: 95%;
+   
+}
+
+
+.left .btn button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn button:nth-child(1){
+    background-color: #dadada;
+}
+
+.btn #arrow-left{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+
+}
+
+
+
+.logos{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.left .logos img{
+    height: 60px;
+    
+}
+
+
+.hero-div .right{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.right .imageDiv{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#section-2{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 30px;
+}
+
+.marquee-div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    width: 25%;
+    height: 400px;
+    background-color: rgba(238, 238, 238, 0.662);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.card .marquee-img-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://cdn.magicdecor.in/com/2024/11/07160611/Loknath-Ancient-Buddha-in-Forest-Wallpaper-Mural.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    padding: 10px 25px;
+}
+
+.marquee-img-div i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.card .marquee-text{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+
+.marquee-text h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+}
+
+.card:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.explore-more{
+    display: flex;
+    gap: 10px;
+
+}
+
+.explore-more i{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
